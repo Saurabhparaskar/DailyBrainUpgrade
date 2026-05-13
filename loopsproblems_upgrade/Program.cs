@@ -7,6 +7,9 @@
             Console.WriteLine("Hello, World!");
             Loops obj = new Loops();
             obj.PrintNumbers();
+
+            Factorial obj1 = new Factorial();   
+            obj1.factorial();
         }
     }
 }
