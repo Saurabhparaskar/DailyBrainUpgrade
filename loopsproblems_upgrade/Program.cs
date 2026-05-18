@@ -10,6 +10,8 @@
 
             Factorial obj1 = new Factorial();   
             obj1.factorial();
+            ForEachLoops f2 = new ForEachLoops();
+                f2.printArrayList();
         }
     }
 }
