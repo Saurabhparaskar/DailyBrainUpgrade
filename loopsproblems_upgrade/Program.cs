@@ -1,6 +1,7 @@
 ﻿namespace loopsproblems_upgrade
+ 
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -8,10 +9,13 @@
             Loops obj = new Loops();
             obj.PrintNumbers();
 
-            Factorial obj1 = new Factorial();   
+            Factorial obj1 = new Factorial();
             obj1.factorial();
             ForEachLoops f2 = new ForEachLoops();
-                f2.printArrayList();
+            f2.printArrayList();
+            PrintNumber p1 = new PrintNumber();
+            p1.PrintNumbers();
         }
     }
+
 }
