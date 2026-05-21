@@ -10,8 +10,8 @@ public class PrintNumber
 			Console.WriteLine(i);
 			count++;
         }
-        Console.WriteLine(" Total Numbers "+count);
-        Console.ReadLine();
+        Console.WriteLine("Total Numbers "+count);
+        Console.ReadLine(); 
 
     }
    
