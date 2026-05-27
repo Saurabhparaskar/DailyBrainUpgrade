@@ -11,8 +11,6 @@ public class PrintNumber
 			count++;
         }
         Console.WriteLine("Total Numbers "+count);
-        Console.ReadLine(); 
-
-    }
-   
+        Console.ReadLine();
+    } 
 }
