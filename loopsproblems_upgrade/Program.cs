@@ -27,6 +27,9 @@ namespace loopsproblems_upgrade
             CalculationUserInput c = new CalculationUserInput();
             c.GetUserInput();
             c.sum();
+            c.mul();
+            c.div();
+            c.sub();
         }
     }
 
