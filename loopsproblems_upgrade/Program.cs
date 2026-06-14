@@ -1,4 +1,5 @@
 ﻿using loopsproblems_upgrade.forloopquetions;
+using loopsproblems_upgrade.userinput;
 
 namespace loopsproblems_upgrade
  
@@ -19,8 +20,13 @@ namespace loopsproblems_upgrade
             //p1.PrintNumbers();
             //SwitchCase s = new SwitchCase();
             //s.switchCase();
-            StarPrint star = new StarPrint();
-            star.starPrint();
+            //StarPrint star = new StarPrint();
+            //star.starPrint();
+
+
+            CalculationUserInput c = new CalculationUserInput();
+            c.GetUserInput();
+            c.sum();
         }
     }
 
