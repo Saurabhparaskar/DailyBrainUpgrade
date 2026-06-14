@@ -20,6 +20,28 @@ namespace loopsproblems_upgrade.userinput
             c = a + b;
             Console.WriteLine("The sum of the two numbers is: " + c);
         }
+        public void sub()
+        {
+            c = a - b;
+            Console.WriteLine("The difference of the two numbers is: " + c);
+        }
+        public void mul()
+        {
+            c = a * b;
+            Console.WriteLine("The product of the two numbers is: " + c);
+        }
+        public void div()
+        {
+            if (b != 0)
+            {
+                c = a / b;
+                Console.WriteLine("The quotient of the two numbers is: " + c);
+            }
+            else
+            {
+                Console.WriteLine("Cannot divide by zero.");
+            }
+        }
 
 
     }

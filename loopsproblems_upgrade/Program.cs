@@ -1,4 +1,4 @@
-﻿using loopsproblems_upgrade.forloopquetions;
+﻿
 using loopsproblems_upgrade.userinput;
 
 namespace loopsproblems_upgrade
@@ -27,6 +27,9 @@ namespace loopsproblems_upgrade
             CalculationUserInput c = new CalculationUserInput();
             c.GetUserInput();
             c.sum();
+            c.mul();
+            c.div();
+            c.sub();
         }
     }
 
