@@ -1,4 +1,5 @@
 ﻿
+using loopsproblems_upgrade.TypeCasting;
 using loopsproblems_upgrade.userinput;
 
 namespace loopsproblems_upgrade
@@ -24,12 +25,17 @@ namespace loopsproblems_upgrade
             //star.starPrint();
 
 
-            CalculationUserInput c = new CalculationUserInput();
-            c.GetUserInput();
-            c.sum();
-            c.mul();
-            c.div();
-            c.sub();
+            //CalculationUserInput c = new CalculationUserInput();
+            //c.GetUserInput();
+            //c.sum();
+            //c.mul();
+            //c.div();
+            //c.sub();
+
+            ImplicitCasting a = new ImplicitCasting();
+            a.Boxing();
+            a.UnBoxing();
+
         }
     }
 
