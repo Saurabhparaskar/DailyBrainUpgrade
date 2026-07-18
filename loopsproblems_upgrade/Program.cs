@@ -1,4 +1,5 @@
 ﻿
+using loopsproblems_upgrade.FitftyQuetionsLoops;
 using loopsproblems_upgrade.TypeCasting;
 using loopsproblems_upgrade.userinput;
 
@@ -9,7 +10,7 @@ namespace loopsproblems_upgrade
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            //Console.WriteLine("Hello, World!");
             //Loops obj = new Loops();
             //obj.PrintNumbers();
 
@@ -32,10 +33,22 @@ namespace loopsproblems_upgrade
             //c.div();
             //c.sub();
 
-            ImplicitCasting a = new ImplicitCasting();
-            a.Boxing();
-            a.UnBoxing();
+            //ImplicitCasting a = new ImplicitCasting();
+            //a.Boxing();
+            //a.UnBoxing();
 
+
+            var printNumbers = new PrintNumbers();
+            // printNumbers.printEvenNumbers();
+            //printNumbers.sumofNumbers(100);
+            //printNumbers.printTable();
+            //  printNumbers.PrintNumberUsingDoWhile();
+            //  printNumbers.PrintNum();
+            //printNumbers.sumofevennumber();
+           // printNumbers.Oddofevennumber();
+            //printNumbers.Revese();
+            //printNumbers.SumOfDigits(158);
+            printNumbers.starPattern();
         }
     }
 
