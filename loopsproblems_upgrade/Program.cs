@@ -1,7 +1,8 @@
 ﻿
 using loopsproblems_upgrade.FitftyQuetionsLoops;
-using loopsproblems_upgrade.TypeCasting;
-using loopsproblems_upgrade.userinput;
+
+
+using loopsproblems_upgrade.CollectionPratices;
 
 namespace loopsproblems_upgrade
  
@@ -38,7 +39,7 @@ namespace loopsproblems_upgrade
             //a.UnBoxing();
 
 
-            var printNumbers = new PrintNumbers();
+           // var printNumbers = new PrintNumbers();
             // printNumbers.printEvenNumbers();
             //printNumbers.sumofNumbers(100);
             //printNumbers.printTable();
@@ -59,6 +60,14 @@ namespace loopsproblems_upgrade
           //  a.Arrays1();
             //a.Arrays2([ 10,20,30]);
              a.SearchElementCount();
+
+            Collection c = new Collection();
+           int total= c.CreateList();
+            Console.WriteLine(total);
+
+
+
+
         }
     }
 

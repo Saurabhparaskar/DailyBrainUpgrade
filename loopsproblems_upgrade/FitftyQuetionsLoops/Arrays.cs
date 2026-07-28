@@ -128,8 +128,6 @@ namespace loopsproblems_upgrade.FitftyQuetionsLoops
         }
 
 
-
-
         public void SearchElement()
         {
             int[] arr = { 10, 20, 30, 40, 50, 70, 80, 100 };
